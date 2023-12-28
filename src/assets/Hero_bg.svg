@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2033.545" height="930.147" viewBox="0 0 2033.545 930.147">
+  <g id="Hero_bg" data-name="Hero bg" transform="translate(43.545 0)">
+    <path id="Path_7750" data-name="Path 7750" d="M12254.52,259.279s.739-196.582.313-211.994-1.493-36.123-42.643-36.4-440.562.344-464.868,0-45.6,3.982-60.013,19.8-26.668,28.721-35.2,36.977-19.458,15.465-39.275,15.93-760.22.072-775-.018-28.967-3.471-54.31-30.564-35.432-42.443-68.942-42.21-423.59.116-448.213.233-40.836,5.465-41.077,35.7-4.3,830.976-3.835,853.349.779,40.21,41.221,40.663,299.438,0,325.4,0,44.986-6.082,62.541-34.079,21.06-33.453,28.267-44.186,20.287-31.083,63.286-30.734,1453.839,0,1475.339,0,37.037-5.4,37.314-38.5S12254.52,259.279,12254.52,259.279Z" transform="translate(-10264.965 -10.796)"/>
+    <g id="Scroll_down_button" data-name="Scroll down button" transform="translate(-200 12)">
+      <path id="scroll-bubble-down" d="M240.8,0a13.57,13.57,0,0,0-13.5,13.64V36.36a13.5,13.5,0,1,0,27,0V13.635A13.565,13.565,0,0,0,240.8,0Zm11.7,36.355a11.7,11.7,0,1,1-23.391,0V13.635a11.7,11.7,0,1,1,23.4,0ZM244.325,41a3.525,3.525,0,1,1-3.525-3.56A3.544,3.544,0,0,1,244.325,41Zm-.975-7.815a2.55,2.55,0,1,1-2.549-2.575A2.562,2.562,0,0,1,243.349,33.19Zm-.713-6.095A1.837,1.837,0,1,1,240.8,25.24,1.845,1.845,0,0,1,242.637,27.095Z" transform="translate(87.7 816)" fill="#fff"/>
+      <text id="Scroll_down" data-name="Scroll down" transform="translate(357 835)" fill="#fff" font-size="18" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Scroll down</tspan></text>
+      <text id="to_discover_more" data-name="to discover more" transform="translate(357 860)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">to discover more</tspan></text>
+    </g>
+  </g>
+</svg>
