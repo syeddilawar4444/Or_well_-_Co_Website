@@ -17,18 +17,11 @@
       <div class="spinner"></div>
     </div>
 
-    <!-- First Section  -->
-
-    <!-- <div class=" h-[930px]  bg-center bg-no-repeat object-fill bg-[url('./assets/Hero_bg.svg')] w-[1440px]  "> -->
-    <!-- <img src="./assets/Hero_bg.svg" class="object-fill  absolute" alt=""> -->
-
-    <!-- </div> -->
-    <!-- <div class="relative consultant"> -->
-
+    <!-- First Section  -->  
     <section class="relative h-screen overflow-hidden">
       <img
-        src="./assets/sahpe.png"
-        class="absolute z-[1] right-0 top-[100px] float-right hidden xl:block"
+        src="./assets/sahpe.webp"
+        class="absolute z-[-1] right-0 top-[100px] float-right hidden xl:block"
         style="mix-blend-mode: difference"
         draggable="false"
         loading="eager"
@@ -40,14 +33,14 @@
       <!-- background  -->
       <svg
         version="1.1"
-        class="mx-auto absolute h-full top-0 z-[-1] consultant"
+        class="mx-auto absolute h-full top-0 z-[-2] translate-x-[-5%]  exl:translate-x-0 "
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         x="0px"
         y="0px"
         viewBox="0 0 2033.5 930.1"
-        style="enable-background: new 0 0 2033.5 930.1"
+        
         xml:space="preserve"
       >
         <style type="text/css">
@@ -127,27 +120,59 @@
           d="M2033.6,709.3v24C2033.6,725.8,2033.6,717.8,2033.6,709.3L2033.6,709.3z"
         />
       </svg>
-      <nav class="mx-auto container">
-        <ul
-          class="flex justify-center items-center gap-10 mx-auto text-[#051B47] h-[60px] select-none"
-        >
-          <li>
-            <a href="./index.html"> Home </a>
-          </li>
-          <li>
-            <a href="#"> About Us </a>
-          </li>
-          <li>
-            <a href="#"> Services </a>
-          </li>
-          <li>
-            <a href="#"> Blog </a>
-          </li>
-          <li>
-            <a href="#"> Contact </a>
-          </li>
-        </ul>
-      </nav>
+        <nav  class="  mx-auto container !p-0 flex  justify-end xxl:justify-center items-center h-[60px]    ">
+          <ul
+            class="  xxl:flex justify-center items-center hidden  xxl:ml-[7.5rem] gap-10  text-[#051B47] select-none "
+          >
+            <li>
+              <a href="./index.html"> Home </a>
+            </li>
+            <li>
+              <a href="#"> About Us </a>
+            </li>
+            <li>
+              <a href="#our_services"> Services </a>
+            </li>
+            <li>
+              <a href="#"> Blog</a>
+            </li>
+            <li>
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+          <!-- Mobile View Navbar -->
+          <ul
+            id="Menu"
+            class=" xxl:hidden flex flex-col justify-center items-center gap-10  text-black text-2xl select-none  top-0 w-screen  h-screen z-[9999] fixed animation_slider  nav_animation left-0 "
+            style="background: rgba(73, 205, 235, 0.747);
+            box-shadow: 0 8px 32px 0 rgba(73, 205, 235, 0.863);
+            backdrop-filter: blur( 40px );
+            -webkit-backdrop-filter: blur( 40px );
+            border-radius: 10px;
+            border: 1px solid rgba(73, 205, 235,0.15)"
+          >
+            <li class="nav-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            <li class="nav-link">
+              <a href="#"> About Us </a>
+            </li>
+            <li class="nav-link">
+              <a href="#our_services"> Services </a>
+            </li>
+            <li class="nav-link">
+              <a href="#"> Blog </a>
+            </li>
+            <li class="nav-link">
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+          <div class="hamburger bg-black xxl:hidden p-2 rounded-full px-3 relative z-[9999999]  ">
+            <span class="bar xxl:"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
       <div
         class="flex items-center justify-center xl:justify-normal flex-col lg:flex-row gap-2 container mx-auto h-[81%]"
       >
@@ -259,9 +284,11 @@
       </div>
     </div>
 
-    <div class="relative bg-[#0088ce] py-10 my-10 xl:my-auto  xl:py-0 xl:bg-transparent h-full xl:h-[970px] overflow-hidden text-white">
+
+    <!--Our Services -->
+    <div id="our_services" class="relative bg-[#0088ce] py-10 my-10 xl:my-auto  xl:py-0 xl:bg-transparent h-full xl:h-[970px] overflow-hidden text-white">
       <img
-        src="./assets/sahpe.png"
+        src="./assets/sahpe.webp"
         class="absolute z-[1] right-0 top-[50px]  float-right hidden xl:block"
         draggable="false"
         loading="eager"
@@ -276,7 +303,7 @@
         class="mx-auto absolute top-0 !h-full !w-full z-[-1] hidden xl:block"
         width="100%"
         height="100%"
-        viewBox="0 0 100% 100%"
+        viewBox="0 0 100% 1180"
       >
         <path
           id="Path_7754"
@@ -418,7 +445,14 @@
 
     <!-- Our Works -->
     <div class="h-fit container mx-auto">
-      <h5 class="text-[#0088CE] text-center text-xl">CASE STUDIES</h5>
+      <h5 class="text-[#0088CE] text-center text-xl relative">CASE STUDIES
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-0 right-[50%] " width="151.234" height="69.358" viewBox="0 0 151.234 69.358">
+          <path id="Path_7731" data-name="Path 7731" d="M0,32.069,1.217,37.34C38.833,29.179,139.067,2.32,146.591,0,141.658,1,63.679,22.744,0,32.069Z" transform="translate(8.4) rotate(13)" fill="#0088ce"/>
+        </svg>
+      </h5>
+     
+      
       <h3
         class="text-[#141212] xsm:text-3xl mm:!text-3xl sm:text-5xl sm:leading-[3.5rem] xl:!text-6xl font-bold text-heading mt-6 text-center"
       >
@@ -1400,10 +1434,9 @@
     </div>
 
     <footer
-      class="container mx-auto my-10 h-fit flex !font-[400] justify-center lg:justify-evenly gap-7 flex-wrap"
+      class="container mx-auto my-10 h-fit flex !font-[400] justify-start  lg:justify-evenly gap-10 flex-wrap"
     >
       <div class="max-w-[450px]">
-        <!-- <img src="./assets/logo.png" draggable="false" alt=""> -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="w-[291px]"
@@ -1607,53 +1640,9 @@
     <div class="flex justify-center items-center p-4 text-[#051B47] mt-6">
       © 2023 Powered by trstechs.com
     </div>
-
     <!-- Swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        pagination: false,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          1280: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-          },
-        },
-      });
-      var testimonial = new Swiper(".testimonial", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: false,
-        navigation: {
-          nextEl: ".swiper-button-next_testimonial",
-          prevEl: ".swiper-button-prev_testimonial",
-        },
-        breakpoints: {
-          768:{
-  slidesPerView: 2,
-            spaceBetween: 30,
-},
-          1280: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-        },
-      });
-    </script>
-    <script>
-      let loader=document.getElementById('loader');
-window.addEventListener("load",vanish);
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="./index.js"></script>
 
-function vanish(){
-  loader.className = "hidden"
-}
-    </script>
   </body>
 </html>

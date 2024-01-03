@@ -7,8 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth !important;
+}
 body{
     font-family: Poppins;
+    /* scroll-behavior: smooth !important; */
 }
 
 .consultant::before{
@@ -122,3 +126,156 @@ color: #0088CE;
     transform: rotate(1turn);
   }
 }
+
+
+/* NAV BAR */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #482ff7;
+}
+
+.nav-logo {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+} */
+
+
+  /* .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #222;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-link {
+      color: #fff;
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  .nav-item {
+      margin: 2.5rem 0;
+  }
+
+
+
+
+  /* THREE DASH MENU */
+.bar {
+  display: block;
+  width: 23px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+.hamburger {
+  /* display: block; */
+  cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.animation_slider{
+  transition:all 0.8s;
+}
+.nav_animation{
+  left: -135% !important;
+}
+
+
+/* SERVICES PAGE CARD COLOR EFFECCT */
+.card_before_color{
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.card_before_color::before{
+  content: "";
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  background-color: #0088CE;
+  position: absolute;
+  top: -30px;
+  border-radius: 50%;
+z-index: 1;
+transition: all 0.6s;
+}
+.card_before_color:hover::before{
+transform: scale(6);
+}
+.card_before_color h3 p{
+  transition: all 0.2;
+}
+.card_before_color:hover h3 {
+  color: white !important;
+}
+.card_before_color:hover p {
+  color: white !important;
+}
+
+
+input:focus,textarea:focus{
+  outline: none;
+}
+/* input:active{
+  outline: none;
+} */
