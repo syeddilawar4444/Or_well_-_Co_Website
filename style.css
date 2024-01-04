@@ -99,9 +99,9 @@ color: #0088CE;
   height: 56px;
   display: grid;
   border-radius: 50%;
-  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#6121d1 41%);
-  background: linear-gradient(0deg ,rgba(97,33,209,0.5) 50%,rgba(97,33,209,1) 0) center/4.5px 100%,
-        linear-gradient(90deg,rgba(97,33,209,0.25) 50%,rgba(97,33,209,0.75) 0) center/100% 4.5px;
+  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#00B9E4 41%);
+  background: linear-gradient(0deg ,rgba(0, 185, 228,0.5) 50%,rgb(0, 185, 228) 0) center/4.5px 100%,
+        linear-gradient(90deg,rgba(0, 185, 228,0.25) 50%,rgba(0, 185, 228,0.75) 0) center/100% 4.5px;
   background-repeat: no-repeat;
   animation: spinner-d3o0rx 1s infinite steps(12);
 }
@@ -279,3 +279,35 @@ input:focus,textarea:focus{
 /* input:active{
   outline: none;
 } */
+
+.img_underline{
+  position: relative;
+}
+
+.img_underline::before{
+  content: url('/src/assets/services_icon/underline.webp');
+  display: inline-block;
+  position: absolute;
+  bottom: -15px !important;
+}
+
+
+/* Scroll Bar */
+html::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 185, 228,0.6);
+	background-color: #00bae43a;
+}
+
+html::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #00B9E4;
+}
