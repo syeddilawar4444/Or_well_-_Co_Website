@@ -34,7 +34,9 @@
       >
         Contact Us
       </button>
-  </a>
+    </a>
+
+
 
 
     <!-- First Section  -->  
@@ -88,10 +90,11 @@
                 c0,7.5-6,13.5-13.5,13.5c-7.4,0-13.5-6-13.5-13.5v-22.7c0-7.5,6-13.6,13.5-13.6c0,0,0,0,0,0c7.5,0,13.5,6.1,13.5,13.6V864.4z"
           />
           <path
+          style="border: none; outline: none;"
             d="M142,841.6v22.7c0,7.5-6,13.5-13.5,13.5c-7.4,0-13.5-6-13.5-13.5v-22.7c0-7.5,6-13.6,13.5-13.6c0,0,0,0,0,0
                 C136,828,142,834.1,142,841.6z"
           />
-          <g id="Scroll_down_button" transform="translate(-200 12)">
+          <g id="Scroll_down_button" transform="translate(-200 12)" class="hidden">
             <path
               id="scroll-bubble-down"
               class="st0"
@@ -133,14 +136,13 @@
             <text transform="matrix(1 0 0 1 357 860)" class="st0 st1 st3">
               to discover more
             </text>
-            <!-- <text transform="matrix(1 0 0 1 357 860)" class="text-white text-8xl">consultant</text> -->
           </g>
         </g>
         <path
           d="M2033.6,709.3v24C2033.6,725.8,2033.6,717.8,2033.6,709.3L2033.6,709.3z"
         />
       </svg>
-        <nav  class="  mx-auto container !p-0 flex justify-end xxl:justify-between items-center  h-fit 
+        <nav  class="  mx-auto container !p-0 flex justify-between xxl:justify-between items-center  h-fit 
         ">
         <!-- nav bar logo -->
         <svg
@@ -288,7 +290,7 @@
               <a href="./contact-us.html"> Contact </a>
             </li>
           </ul>
-          <a href="./contact-us.html#contact" class="mr-10">
+          <a href="./contact-us.html#contact" class="mr-10 hidden xxl:block">
             <button
               class="bg-[#00B9E4] h-[50px] w-[128px] text-white rounded-lg font-[400] btn_hover relative overflow-hidden italic"
             >
@@ -345,7 +347,7 @@
               style="box-shadow: 0px 7px 35px #00000033"
               >Orwell</span>
           </div>
-          <p class="text-white mt-4 font-[200] text-base lm:text-lg " style="letter-spacing: 0.6px">
+          <p class="text-white mt-4 text-justify font-[200] text-base lm:text-lg " style="letter-spacing: 0.6px">
             Tired of endless searches and mismatched hires? Orwell takes the headache out of finding the perfect people for your team. We are your no-nonsense partners for fast, affordable technical recruitment and consulting across 6 key industries: Financial, Healthcare/Pharma, Automotive, Energy, Logistics, and Manufacturing.
           </p>
 
@@ -437,46 +439,27 @@
       </div>
     </div>
 
-
-    <!--Our Services -->
-    <div id="our_services" class="relative bg-[#0088ce] py-10 my-10 xl:my-auto flex justify-center items-center  xl:bg-transparent xl:py-0  h-full xl:h-[1300px] overflow-hidden text-white">
+    <!-- Our Services -->
+    <div class="h-fit bg-[#0088CE] relative rounded-tl-3xl text-white flex justify-center my-20 py-10">
+      <!-- top right -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] right-0 bottom-[100%] absolute fill-[#0088CE]" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+      <!-- bottom right -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] right-0 rotate-180 scale-x-[-1] top-[100%] absolute fill-[#0088CE] hidden sm:block" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+      <!-- bottom left -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] left-0  rotate-180 top-[100%] absolute fill-[#0088CE] " viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+    
+      <!-- OrWell  Shape -->
       <img
-        src="./assets/sahpe.webp"
-        class="absolute z-[1] right-0 top-[100px]  float-right hidden xl:block"
-        draggable="false"
-        loading="eager"
-        title="Shape"
-        alt="Shape"
-        width="380"
-        height="250"
-      />
-      <!-- <img src="./assets/blue_background.svg" class="mx-auto absolute top-0 object-cover z-[-1]" loading="lazy" title="OUR SERVICES" alt="background" width="100%" height="100%"> -->
-      <!-- <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="mx-auto absolute top-0 !h-full !w-full z-[-1] hidden xl:block"
-        width="100%"
-        height="100%"
-        viewBox="0 0 100% 1180"
-      >
-        <path
-          id="Path_7754"
-          data-name="Path 7754"
-          d="M10285.42,720.4s-.755,204.683-.319,220.73,1.525,37.611,43.55,37.9,327.383-.358,352.206,0,46.57-4.146,61.289-20.612,27.235-29.9,35.944-38.5,19.872-16.1,40.111-16.587,837.671-.074,852.769.019,29.583,3.614,55.465,31.823,36.186,44.192,70.41,43.949,340.688-.121,365.834-.242,41.705-5.69,41.951-37.169.566-864.979.088-888.273-.8-41.867-42.1-42.339-199.853-.24-226.366-.24-45.944,6.332-63.872,35.483-21.508,34.831-28.868,46.007-20.719,32.364-64.633,32-1433.707,0-1455.665,0-37.825,5.625-38.108,40.084S10285.42,720.4,10285.42,720.4Z"
-          transform="translate(-10284.965 -10.796)"
-          fill="#0088ce"
-        />
-      </svg> -->
-      <svg version="1.1" class="mx-auto absolute top-0 !h-[100%] !w-[100%] z-[-1] hidden xl:block" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 2400 1500" style="enable-background:new 0 0 2400 1500;" xml:space="preserve">
-
-      <path style="fill: #0088CE;" id="Path_7754" d="M0.6,1099.2c0,0-0.9,317.1-0.4,341.9s1.9,58.3,54.4,58.7c52.5,0.4,409.2-0.6,440.3,0
-        c31,0.6,58.2-6.4,76.6-31.9c18.4-25.5,34-46.3,44.9-59.6c10.9-13.3,24.8-24.9,50.1-25.7s1047.1-0.1,1066,0s37,5.6,69.3,49.3
-        c32.4,43.7,45.2,68.5,88,68.1s425.9-0.2,457.3-0.4c31.4-0.2,52.1-8.8,52.4-57.6s0.7-1339.9,0.1-1376s-1-64.9-52.6-65.6
-        c-51.6-0.7-249.8-0.4-283-0.4s-57.4,9.8-79.8,55s-26.9,54-36.1,71.3s-25.9,50.1-80.8,49.6c-54.9-0.6-1792.1,0-1819.6,0
-        S0.5,184.6,0.2,238S0.6,1099.2,0.6,1099.2z"/>
-      </svg>
-
-<!--  -->
+      src="./assets/sahpe.webp"
+      class="absolute z-[1] right-0 hidden xl:block"
+      draggable="false"
+      loading="eager"
+      title="Shape"
+      alt="Shape"
+      width="380"
+      height="250"
+    />
+      <!-- content -->
       <div
         class="bg-transparent flex justify-center flex-col my-auto h-fit container mx-auto pt-10 "
       >
@@ -655,7 +638,10 @@
           </a> -->
         </div>
       </div>
+
+
     </div>
+    
 
     <!-- Our Works -->
     <div class="h-fit container mx-auto">
@@ -730,6 +716,7 @@
     </div>
 
     <!-- best client -->
+    
     <div class="h-fit  mt-[7.5rem]">
       <h5 class="text-[#0088CE] text-center text-xl img_underline">BEST CLIENTS</h5>
       <h3
@@ -737,11 +724,16 @@
       >
         Our Satisfied Clients
       </h3>
-      <div class="relative h-[450px]  container mx-auto overflow-hidden flex justify-center items-center mt-10 bg-[#0088ce] lg:bg-transparent ">
-        <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-0 w-full h-full hidden lg:block" width="1440" height="450" viewBox="0 0 1440 450">
-          <path id="Path_7755" data-name="Path 7755" d="M10285.246,131.03s-.4-95.12-.172-102.578.816-17.475,23.314-17.612,175.262.167,188.555,0,24.932,1.927,32.813,9.579,14.578,13.9,19.242,17.893,10.637,7.483,21.473,7.708,860.576.034,868.66-.009,15.836-1.679,29.691-14.789,19.371-20.537,37.7-20.423,182.385.056,195.846.114,22.328,2.644,22.461,17.274.3,401.971.045,412.8-.428,19.456-22.537,19.675-106.99.114-121.184.114-24.6-2.943-34.193-16.49-11.516-16.186-15.455-21.381-11.09-15.039-34.6-14.872-1179.664,0-1191.418,0-20.25-2.614-20.4-18.628S10285.246,131.03,10285.246,131.03Z" transform="translate(-10285.002 -10.797)" fill="#0088ce"/>
-        </svg>
-        <div class="container mx-auto z-20 flex flex-col gap-14">
+      <div class="h-fit bg-[#0088CE] relative rounded-tl-3xl flex justify-center items-center my-10 py-20 container mx-auto">
+        <!-- top right -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] right-0 bottom-[100%] absolute fill-[#0088CE]" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+        <!-- bottom right -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] right-0 rotate-180 scale-x-[-1] top-[100%] absolute fill-[#0088CE]" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+        <!-- bottom left -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] left-0  rotate-180 top-[100%] absolute fill-[#0088CE]" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+      
+        <!-- content -->
+        <div class="container mx-auto z-20 flex flex-col gap-14 my-10">
           <div class="flex justify-around items-center flex-wrap">
             <img
               src="./assets/wordpress.png"
@@ -819,8 +811,16 @@
             />
           </div>
         </div>
+
       </div>
+
+
+
+     
     </div>
+    <br>
+    <br><br>
+
     <!-- Latest From Our Press -->
     <div class="container mx-auto mt-16" id="blog">
       <h5 class="text-[#0088CE] text-xl img_underline">NEWS & ARTICALS</h5>
@@ -1683,6 +1683,37 @@ earn public trust.
     </div>
 
     <!-- CTA -->
+
+    <div class="h-[300px] bg-[#0088CE] relative  flex justify-center items-center my-16 py-20  ">
+      <!-- top right -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] right-0 bottom-[100%] hidden sm:block absolute fill-[#0088CE]" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+      <!-- bottom right -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-[233px] sm:w-[300px] left-0 scale-x-[-1] bottom-[100%] absolute fill-[#0088CE]" viewBox="0 0 520.45 154.31"><g><g><path class="cls-1" d="M520.45,76.26v78.05H0c45.46-3.5,60.35-29.17,68.85-43.22,9.2-15.21,13.7-23,36.1-62.69S151.55,0,184.75,0l90.53,0H348c50.4,0,98.05.13,119.75.4,51.6.61,52,25.93,52.6,57.67C520.39,60,520.42,66.29,520.45,76.26Z"/></g></g></svg>
+      <!-- shape-->
+      
+
+      <!-- content -->
+      <div class="container mx-auto">
+        <h5 class="text-white font-[300] text-xl">CONTACT ORWELL TODAY</h5>
+        <div class="flex items-center justify-between gap-10 flex-wrap">
+          <h3
+            class="text-white xsm:text-4xl sm:text-5xl sm:leading-[3.5rem] xl:!text-6xl font-bold text-heading mt-8"
+          >
+         Let&#39;s shift gears together!
+          </h3>
+          <button
+            class="bg-[#00B9E4] float-right self-center h-[65px] w-[182px] text-white rounded-lg font-[400] btn_hover relative overflow-hidden"
+          >
+          <a href="./contact-us.html#contact">
+
+            Get A Quote
+          </a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
     <div
       class="!relative h-[372px] overflow-hidden flex justify-center items-center "
     >
@@ -1749,9 +1780,9 @@ earn public trust.
         >
           <defs>
             <style>
-              .cls-1 {
+              <!-- .cls-1 {
                 fill: #141212;
-              }
+              } -->
               .cls-2,
               .cls-4 {
                 fill: #00b9e4;
@@ -1945,6 +1976,11 @@ earn public trust.
     <div class="flex justify-center items-center p-4 text-[#051B47] mt-6">
       © 2023 Powered by trstechs.com
     </div>
+
+
+    
+    <br>
+    <br><br><br><br><br><br><br><br>
 
     <!-- Swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
