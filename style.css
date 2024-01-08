@@ -311,3 +311,18 @@ html::-webkit-scrollbar-thumb
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #00B9E4;
 }
+
+/* #team_card:hover::before{
+content: "";
+display: inline-block;
+background: red;
+
+} */
+
+#Social{
+  transition: all 0.4s;
+
+}
+#team_card:hover #Social{
+  bottom: 0%;
+}
