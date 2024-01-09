@@ -54,6 +54,10 @@ slidesPerView: 2,
         slidesPerView: 3,
         spaceBetween: 10,
       },
+      1440:{
+        slidesPerView: 3.5,
+        spaceBetween: 10,
+      }
     },
   });
 
