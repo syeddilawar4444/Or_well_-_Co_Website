@@ -64,8 +64,8 @@ slidesPerView: 2,
   const ourTeam = new Swiper(".our_team", {
     slidesPerView: 1,
     spaceBetween: 20,
-    centeredSlides: true,
-    pagination: false,
+    // centeredSlides: true,
+    // pagination: false,
     breakpoints: {
         640:{
             slidesPerView:2,
@@ -84,11 +84,11 @@ slidesPerView: 2,
           spaceBetween: 20,
         },
         1440:{
-          slidesPerView:4,
+          slidesPerView:3,
           spaceBetween:20
         },
         1444:{
-          slidesPerView:5,
+          slidesPerView:3,
           spaceBetween:20
         }
       },

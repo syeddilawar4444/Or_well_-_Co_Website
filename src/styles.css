@@ -670,6 +670,14 @@ video {
   bottom: 99%;
 }
 
+.bottom-\[99\.6\%\] {
+  bottom: 99.6%;
+}
+
+.bottom-\[99\.7\%\] {
+  bottom: 99.7%;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -694,10 +702,6 @@ video {
   right: -70px;
 }
 
-.right-\[50\%\] {
-  right: 50%;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -720,6 +724,14 @@ video {
 
 .top-\[99\%\] {
   top: 99%;
+}
+
+.top-\[99\.6\%\] {
+  top: 99.6%;
+}
+
+.top-\[99\.8\%\] {
+  top: 99.8%;
 }
 
 .top-full {
@@ -908,6 +920,10 @@ video {
 
 .mt-\[7\.5rem\] {
   margin-top: 7.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -1324,6 +1340,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .overflow-x-clip {
   overflow-x: clip;
 }
@@ -1368,6 +1388,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-tl-3xl {
   border-top-left-radius: 1.5rem;
 }
@@ -1378,6 +1402,10 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-\[4px\] {
@@ -1448,6 +1476,11 @@ video {
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-blue-600 {
@@ -2428,6 +2461,10 @@ background: red;
     height: auto;
   }
 
+  .lm\:max-w-\[450px\] {
+    max-width: 450px;
+  }
+
   .lm\:justify-between {
     justify-content: space-between;
   }
@@ -2457,6 +2494,10 @@ background: red;
     bottom: 100%;
   }
 
+  .sm\:bottom-\[99\.4\%\] {
+    bottom: 99.4%;
+  }
+
   .sm\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -2484,6 +2525,10 @@ background: red;
 
   .sm\:w-\[459px\] {
     width: 459px;
+  }
+
+  .sm\:w-\[60\%\] {
+    width: 60%;
   }
 
   .sm\:grid-cols-2 {
@@ -2712,6 +2757,10 @@ background: red;
     flex-direction: row-reverse;
   }
 
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+
   .xl\:justify-normal {
     justify-content: normal;
   }
@@ -2781,6 +2830,10 @@ background: red;
 }
 
 @media (min-width: 1480px) {
+  .exl\:h-\[63px\] {
+    height: 63px;
+  }
+
   .exl\:h-\[71px\] {
     height: 71px;
   }
