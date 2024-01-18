@@ -5,17 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OR WELL & CO</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./assets/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.webp">
     <link rel="mask-icon" href="./assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-
-
+    <link rel="stylesheet" href="./swiper/swiper_js.min.css">
   </head>
   <body class="relative">
     <div class="bg-white fixed z-[99999] h-screen w-full flex justify-center items-center" id="loader">
@@ -30,12 +25,11 @@
       </button>
     </a>
     <!-- HERO Section  -->  
-
     <section>
       <!-- nav bar -->
-      <nav  class="  mx-auto container !p-0 flex justify-between xxl:justify-between items-center h-[60px] exl:h-[63px] bg-red  ">
+      <nav  class="  mx-auto container !p-0 flex justify-between xxl:justify-between items-center h-[58px] exl:h-[69px] bg-red  ">
       <!-- nav bar logo -->
-      <a href="/" class="w-[220px] h-[60px] p-2">
+      <a href="/" class="w-[206px] h-[58px] p-2">
       <svg
       xmlns="http://www.w3.org/2000/svg"
       
@@ -163,11 +157,10 @@
       </a>
       <!-- xxl:ml-[7.5rem] -->
         <ul
-        
           class="  xxl:flex justify-center items-center hidden   gap-10  text-[#051B47] select-none  "
         >
           <li>
-            <a href="./index.html"> Home </a>
+            <a href="./index.html" class="aactive"> Home </a>
           </li>
           <li>
             <a href="./about-us.html"> About Us </a>
@@ -223,7 +216,7 @@
         </div>
       </nav>
       
-      <div class="h-[800px] bg-black relative  sm:before:contents-[('none')] exl:!before:content-['Hello_World'] text-white  mb-24 py-3">
+      <div class="h-[800px] bg-black relative  sm:before:contents-[('none')] exl:!before:content-['Hello_World'] border-none text-white  mb-24 py-3">
         <!-- logo shape -->
         <img
         src="./assets/sahpe.webp"
@@ -297,7 +290,6 @@
   
       </div>
     </section>
-
     <!-- About Us Section  -->
     <section
       class="flex items-center flex-col lg:flex-row-reverse relative gap-4 mt-10 container mx-auto"
@@ -327,18 +319,18 @@
         </a>
         </button>
       </div>
-      <div class="w-full h-[200px] mm:h-auto lg:[25%] relative">
+      <div class="w-full h-auto lg:[25%] relative">
         <img
           draggable="false"
           loading="eager"
-          width="60%"
-          height="100%"
+          width="500"
+          height="400"
           class="mx-auto float-left md:float-none"
           src="./assets/home_about_section.webp"
           alt="CRM SOFTWARE"
           title="CRM SOFTWARE Services"
         />
-        <div class="flex items-end gap-7 absolute right-0 bottom-0">
+        <div class=" items-end gap-7 absolute right-0 bottom-0 hidden mm:flex">
           <div
             class="bg-[#0089ce3d] relative text-2xl md:text-4xl text-[#0088CE] font-bold rounded-[15px] w-[60px] h-[60px] md:w-[100px] md:h-[100px] flex items-center justify-center"
           >
@@ -353,7 +345,6 @@
         </div>
       </div>
     </section>
-
     <!-- Our Services -->
     <section id="our_services" class="h-fit bg-[#0088CE] relative rounded-tl-3xl text-white flex justify-center my-20 py-10">
       <!-- top right -->
@@ -394,7 +385,7 @@
 
         <!-- Card button -->
         <div class="flex gap-5 flex-wrap mt-10 justify-center">
-          <a href="./financial.html" class="flex gap-6 justify-center items-start w-[400px]">
+          <a href="./services/financial.html" class="flex gap-6 justify-center items-start w-[400px]">
             <img
               src="./assets/services_icon/Finiacal.webp"
               draggable="false"
@@ -414,7 +405,7 @@
               <div class="text-4xl font-[300]">+</div>
             </div>
           </a>
-          <a href="./healthcare.html" class="flex gap-6 justify-center items-start w-[400px]">
+          <a href="./services/healthcare.html" class="flex gap-6 justify-center items-start w-[400px]">
             <img
               src="./assets/services_icon/healthcare.webp"
               draggable="false"
@@ -432,7 +423,7 @@
               <div class="text-4xl font-[300]">+</div>
             </div>
           </a>
-          <a href="./automotive.html" class="flex gap-6 justify-center items-start  w-[400px]">
+          <a href="./services/automotive.html" class="flex gap-6 justify-center items-start  w-[400px]">
             <img
               src="./assets/services_icon/automotive.webp"
               draggable="false"
@@ -450,7 +441,7 @@
               <div class="text-4xl font-[300]">+</div>
             </div>
           </a>
-          <a href="./energy.html" class="flex gap-6 justify-center items-start  w-[400px]">
+          <a href="./services/energy.html" class="flex gap-6 justify-center items-start  w-[400px]">
             <img
               src="./assets/services_icon/Energy.webp"
               draggable="false"
@@ -468,7 +459,7 @@
               <div class="text-4xl font-[300]">+</div>
             </div>
           </a>
-          <a href="./logistics.html" class="flex gap-6 justify-center items-start  w-[400px]">
+          <a href="./services/logistics.html" class="flex gap-6 justify-center items-start  w-[400px]">
             <img
               src="./assets/services_icon/logistic.webp"
               draggable="false"
@@ -486,7 +477,7 @@
               <div class="text-4xl font-[300]">+</div>
             </div>
           </a>
-          <a href="./manufacturing.html" class="flex gap-6 justify-center items-start  w-[400px]">
+          <a href="./services/manufacturing.html" class="flex gap-6 justify-center items-start  w-[400px]">
             <img
               src="./assets/services_icon/manufacturing.webp"
               draggable="false"
@@ -509,8 +500,6 @@
 
 
     </section>
-    
-
     <!-- Our Works -->
     <section class="h-fit container mx-auto">
       <h5 class="text-[#0088CE] text-center text-xl relative img_underline">Our Successful Work</h5>
@@ -580,7 +569,6 @@
       </div>
 
     </section>
-
     <!-- Satisfied client -->
     <section class="h-fit  my-20">
       <h5 class="text-[#0088CE] text-center text-xl img_underline">BEST CLIENTS</h5>
@@ -677,7 +665,6 @@
         </div>
       </div>
     </section>
-
     <!-- News & Articals -->
     <section>
       <div class="container mx-auto mt-16" id="blog">
@@ -934,8 +921,6 @@
         </div>
       </div>
     </section>
-
-
     <!-- testimonial -->
     <section class="container mx-auto mt-20">
       <h5 class="text-[#0088CE] text-xl img_underline">TESTIMONIALS</h5>
@@ -1541,13 +1526,8 @@
         </div>
       </div>
     </section>
-
-    
-
     <!-- CTA -->
-
     <section class="h-[350px] bg-[#0088CE] relative  flex justify-center items-center my-16 py-20  overflow-x-clip " >
-
       <!-- top right -->
       <svg xmlns="http://www.w3.org/2000/svg"  class="w-[233px] sm:w-[382px] right-0 bottom-[99.6%] hidden sm:block absolute fill-[#0088CE]" viewBox="0 0 386.27 29.2"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M386.27,29.2H0l4.53,0c10.12-.19,15.7-3.08,20-6.39S35.18,14.3,42.54,8,60.76-.11,73.17,0,343.44-.09,364.44,0,386,8.44,386.2,14.62C386.25,16.08,386.27,21.61,386.27,29.2Z"/></g></g></svg>
       <!-- top left -->
@@ -1589,10 +1569,7 @@
       </div>
 
     </section>
-
-
-
-
+    <!-- Footer -->
     <footer
       class="container mx-auto my-10 h-fit flex !font-[400] justify-start  lg:justify-evenly gap-10 flex-wrap"
     >
@@ -1747,21 +1724,21 @@
       </div>
       <ul class="flex flex-col gap-3 text-[#051B47]">
         <h6 class="font-bold text-xl">COMPANY</h6>
-        <li><a href="./financial.html">Financial</a></li>
+        <li><a href="./services/financial.html">Financial</a></li>
         <li>
-          <a href="./healthcare.html"> Health Care </a>
+          <a href="./services/healthcare.html"> Health Care </a>
         </li>
         <li>
-          <a href="./automotive.html"> Automotive </a>
+          <a href="./services/automotive.html"> Automotive </a>
         </li>
         <li>
-          <a href="./energy.html"> Energy </a>
+          <a href="./services/energy.html"> Energy </a>
         </li>
         <li>
-          <a href="./logistics.html"> Logistics </a>
+          <a href="./services/logistics.html"> Logistics </a>
         </li>
         <li>
-          <a href="./manufacturing.html"> Manufacturing </a>
+          <a href="./services/manufacturing.html"> Manufacturing </a>
         </li>
       </ul>
 
@@ -1769,7 +1746,7 @@
         <h6 class="font-bold text-xl">Contact</h6>
         <li>Email:</li>
         <li class="font-medium">
-          <a href="#"> info@orwellandco.com </a>
+          <a href="mailto:info@orwellandco.com"> info@orwellandco.com </a>
         </li>
         <li>Phone:</li>
         <li class="font-medium">
@@ -1797,11 +1774,12 @@
       </ul>
     </footer>
     <div class="flex justify-center items-center p-4 text-[#051B47] mt-6">
-      © 2023 Powered by trstechs.com
+      © 2024 Powered by<a href="http://trstechs.com/" style="font-weight: bold;" target="_blank">&nbsp; trstechs.com </a>
     </div>
 
     <!-- Swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="./swiper/swiper_js.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  -->
     <script src="./index.js"></script>
 
   </body>

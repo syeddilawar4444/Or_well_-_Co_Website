@@ -99,6 +99,28 @@ nav li a:hover::before{
   transition: transform 0.25s ease-out;
 }
 
+.aactive{
+  color: #0088CE !important;
+}
+.aactive::before{
+  transition: all 5s;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px !important;
+  height: 8px !important;
+  rotate: 312deg;
+  border-radius: 20%;
+  background-color: #0088CE;
+  transition: transform 0.25s ease-out;
+}
+
+
+
+
 .about_before::before{
   content: "";
   display: inline-block;
@@ -109,7 +131,9 @@ nav li a:hover::before{
   margin-bottom: 5px;
 }
 
-
+.btn_hover{
+  z-index: 2;
+}
 .btn_hover::before{
   content: url("./assets/button_Animation.webp");
  left: -7px;
@@ -118,6 +142,7 @@ nav li a:hover::before{
   height: 35px;
   position: absolute;
   transition: all 0.5s;
+  z-index: -1;
   transform: translateX(-100%);
 }
 .btn_hover:hover::before{
